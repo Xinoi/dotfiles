@@ -1,5 +1,6 @@
 if status is-interactive
-# Commands to run in interactive sessions can go here
+  sleep 0.1
+  fastfetch
 end
 
 abbr -a cm chezmoi
