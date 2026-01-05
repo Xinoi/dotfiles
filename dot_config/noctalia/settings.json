@@ -46,7 +46,7 @@
             "center": [
                 {
                     "characterCount": 2,
-                    "colorizeIcons": false,
+                    "colorizeIcons": true,
                     "enableScrollWheel": true,
                     "followFocusedScreen": false,
                     "groupedBorderOpacity": 1,
@@ -54,7 +54,7 @@
                     "iconScale": 0.8,
                     "id": "Workspace",
                     "labelMode": "index",
-                    "showApplications": false,
+                    "showApplications": true,
                     "showLabelsOnlyWhenOccupied": true,
                     "unfocusedIconsOpacity": 1
                 }
@@ -71,6 +71,13 @@
                 },
                 {
                     "id": "KeepAwake"
+                },
+                {
+                    "defaultSettings": {
+                        "hideBackground": false,
+                        "minimumThreshold": 10
+                    },
+                    "id": "plugin:catwalk"
                 },
                 {
                     "colorizeIcons": false,
@@ -456,9 +463,9 @@
     },
     "ui": {
         "boxBorderEnabled": false,
-        "fontDefault": "Adwaita Mono",
+        "fontDefault": "FiraCode Nerd Font",
         "fontDefaultScale": 1,
-        "fontFixed": "Adwaita Mono",
+        "fontFixed": "FiraCode Nerd Font Mono",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 0.93,
         "panelsAttachedToBar": true,
@@ -466,7 +473,7 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "directory": "/home/xinoi/NixOS-Xinoi/home/programs/hyprland/wallpapers",
+        "directory": "/home/xinoi/Bilder/Wallpaper",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
