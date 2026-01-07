@@ -132,7 +132,7 @@
     },
     "brightness": {
         "brightnessStep": 5,
-        "enableDdcSupport": false,
+        "enableDdcSupport": true,
         "enforceMinimum": true
     },
     "calendar": {
@@ -473,7 +473,7 @@
         "tooltipsEnabled": true
     },
     "wallpaper": {
-        "directory": "/home/xinoi/Bilder/Wallpaper",
+        "directory": "/home/xinoi/Pictures/Wallpaper",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
@@ -483,9 +483,9 @@
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
-        "randomEnabled": false,
-        "randomIntervalSec": 300,
-        "recursiveSearch": false,
+        "randomEnabled": true,
+        "randomIntervalSec": 3600,
+        "recursiveSearch": true,
         "setWallpaperOnAllMonitors": true,
         "solidColor": "#1a1a2e",
         "transitionDuration": 1500,
