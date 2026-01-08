@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# packages.yaml hash: {{ include ".chezmoidata/packages.yaml" | sha256sum }}
+
+sudo pacman -S --needed --noconfirm {{ range .packages.pacman -}} {{ . | quote }} {{ end }}
+
+if command -v yay &> /dev/null; then
+    yay -S --needed --noconfirm {{ range .packages.aur -}} {{ . | quote }} {{ end }}
+else
+    echo "yay not found, skipping AUR packages. Install yay manually first."
+fi
