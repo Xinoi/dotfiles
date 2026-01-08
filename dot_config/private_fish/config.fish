@@ -5,3 +5,4 @@ end
 
 abbr -a cm chezmoi
 abbr -a lg lazygit
+abbr -a ip nvim ~/.local/share/chezmoi/.chezmoidata/packages.yaml
