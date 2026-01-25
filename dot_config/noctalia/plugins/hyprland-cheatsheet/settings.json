@@ -1,0 +1,13 @@
+{
+  "cheatsheetData": [
+    {
+      "title": "FEHLER",
+      "binds": [
+        {
+          "keys": "ERROR",
+          "desc": "$HOME kann nicht abgerufen werden"
+        }
+      ]
+    }
+  ]
+}
