@@ -1,0 +1,11 @@
+# Theme (Ghostty sucht standardmäßig in seinem eigenen Theme-Verzeichnis)
+# Falls 'noctalia' kein Standard-Theme ist, musst du den Pfad anpassen
+theme = noctalia
+
+# Font Einstellungen
+font-family = "Hurmit Nerd Font Mono"
+font-size = 14
+
+# Fenster & Optik
+background-opacity = 0.8
+
