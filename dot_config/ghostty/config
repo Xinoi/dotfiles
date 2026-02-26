@@ -9,3 +9,13 @@ font-size = 14
 # Fenster & Optik
 background-opacity = 0.8
 
+# cursor
+cursor-style = block
+
+# cursor animations
+custom-shader = shaders/cursor_warp.glsl
+#custom-shader = shaders/blaze_sparks.glsl
+#custom-shader = shaders/cursor_blaze_tapered.glsl
+#custom-shader = shaders/cursor_border_1.glsl
+custom-shader = shaders/cursor_frozen.glsl
+custom-shader = shaders/sparks.glsl
